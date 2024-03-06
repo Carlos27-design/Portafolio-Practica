@@ -1,16 +1,17 @@
 :root {
   --color-scrollbar: #d3d3d4;
   --color-background-scrollbar: #eee;
+  --color-secundario: #04b4e0;
 }
 
 /*SCROLL CHROME*/
 .content__page::-webkit-scrollbar {
-  width: 25px;
+  width: 2.5rem;
   background: transparent;
 }
 
 .content__page::-webkit-scrollbar-thumb {
-  border: 10px solid transparent;
+  border: 1rem solid transparent;
   box-shadow: none;
   border-radius: 40px;
 }

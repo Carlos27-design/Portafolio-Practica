@@ -25,7 +25,7 @@
 /*Estilo generales*/
 
 html {
-  font-size: 10px;
+  font-size: 62.5% /*Equivalente a 10px*/;
 }
 
 body {
@@ -233,7 +233,7 @@ body {
   display: block;
   position: absolute;
   top: 0;
-  right: -105px;
+  right: -10.5rem;
   background-color: var(--color-transparente);
   min-width: 11rem;
 }
@@ -311,10 +311,10 @@ body {
 .about__title::after {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 30px;
-  top: 20px;
-  right: -25px;
+  width: 5rem;
+  height: 3rem;
+  top: 2rem;
+  right: -2.5rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -376,15 +376,22 @@ body {
 
 .services__title {
   font-size: 2.1rem;
+  position: relative;
 }
 
+.services__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .services__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  left: 110px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  left: 11rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -394,13 +401,6 @@ body {
   );
   background-size: 6px 6px;
   opacity: 0.5;
-}
-
-.services__container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .services__service {
@@ -445,10 +445,10 @@ body {
 .reviews__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  left: 72px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  left: 7.2rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -549,10 +549,10 @@ body {
 .clients__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  left: 70px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  left: 7rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -582,7 +582,7 @@ body {
 }
 
 .client__img {
-  width: 145px;
+  width: 14.5rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -607,10 +607,10 @@ body {
 .prices__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  left: 50px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  left: 5rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -729,10 +729,10 @@ body {
 .extra__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  left: 165px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  left: 16.5rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -809,10 +809,10 @@ body {
 .resume__title::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 15px;
-  right: -15px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.5rem;
+  right: -1.5rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -838,10 +838,10 @@ body {
 .resume__subtitle::after {
   content: '';
   position: absolute;
-  width: 30px;
-  height: 20px;
-  top: 16px;
-  right: 2px;
+  width: 3rem;
+  height: 2rem;
+  top: 1.6rem;
+  right: 0.2rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -920,9 +920,9 @@ body {
   position: absolute;
   top: 0;
   left: 30%;
-  bottom: -49px;
+  bottom: -4.9rem;
   width: 1px;
-
+  height: auto;
   background-color: var(--color-background-scrollbar);
 }
 
@@ -1105,10 +1105,10 @@ body {
 .portfolio__title::after {
   content: '';
   position: absolute;
-  top: 20px;
-  left: 120px;
-  width: 50px;
-  height: 30px;
+  top: 2rem;
+  left: 12rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -1236,10 +1236,10 @@ body {
 .blog__title::after {
   content: '';
   position: absolute;
-  top: 20px;
-  left: 40px;
-  width: 50px;
-  height: 30px;
+  top: 2rem;
+  left: 4rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -1357,10 +1357,10 @@ body {
 .contact__title:after {
   content: '';
   position: absolute;
-  top: 20px;
-  left: 120px;
-  width: 50px;
-  height: 30px;
+  top: 2rem;
+  left: 12rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -1415,10 +1415,10 @@ body {
 .form-header__title::after {
   content: '';
   position: absolute;
-  top: 10px;
-  left: 220px;
-  width: 50px;
-  height: 30px;
+  top: 1rem;
+  left: 22rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),

@@ -2,7 +2,10 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale:1"
+    />
 
     <!--Estilos-->
     <link
@@ -13,6 +16,10 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Script JS-->
+    <script src="assets/js/menu.js" defer></script>
 
     <title>Portafolio - Carlos Coronado</title>
   </head>
@@ -99,6 +106,12 @@
         </section>
       </aside>
 
+      <!--Menu responsive-->
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
+
       <!--Contenido Principal-->
       <main class="layout__content">
         <section class="content__page content__about">
@@ -164,7 +177,7 @@
                 </div>
 
                 <div class="service__content">
-                  <h3 class="services__title">Programación</h3>
+                  <h3 class="service__title">Programación</h3>
                   <p class="service__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Deleniti voluptas odit provident iure quae vero aperiam. Sed
@@ -179,7 +192,7 @@
                 </div>
 
                 <div class="service__content">
-                  <h3 class="services__title">Desarrollo Web</h3>
+                  <h3 class="service__title">Desarrollo Web</h3>
                   <p class="services__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Deleniti voluptas odit provident iure quae vero aperiam. Sed
